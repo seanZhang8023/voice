@@ -1,0 +1,99 @@
+.details-switch-demo-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  transition: background 1s;
+  border-radius: 40px;
+}
+
+.details-switch-demo {
+  height: 900px;
+  border-radius: 40px;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.details-switch-demo-img-wrapper {
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+  border-radius: 40px 0px 0px 40px;
+}
+
+.details-switch-demo-text-wrapper {
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+  background-color: white;
+  border-radius: 0px 40px 40px 0px;
+}
+
+.details-switch-demo-pic {
+  position: absolute;
+
+}
+
+.details-switch-demo-pic .details-switch-demo-pic img {
+  width: 495px;
+  height: 562px;
+  margin-left: 86px;
+  margin-top: 30px;
+}
+
+.details-switch-demo-pic {
+  width: 220px;
+  top: 100px;
+  left: 40px;
+}
+
+.details-switch-demo-text-wrapper h1 {
+  font-size: 18px;
+}
+
+.details-switch-demo-text-wrapper em {
+  height: 2px;
+  width: 60px;
+  border-radius: 2px;
+  display: block;
+}
+
+.details-switch-demo-text-wrapper p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.details-switch-demo-wrapper .anticon {
+  position: absolute;
+  font-size: 24px;
+  top: 50%;
+  cursor: pointer;
+}
+
+.details-switch-demo-wrapper .anticon-left {
+  left: 5px;
+  z-index: 999;
+}
+
+.details-switch-demo-wrapper .anticon-right {
+  right: 5px;
+}
+
+@media screen and (max-width: 414px) {
+  .details-switch-demo {
+    transform: scale(.6) translateX(12px);
+    transform-origin: left center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .details-switch-demo {
+    transform: scale(.55) translateX(7px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .details-switch-demo {
+    transform: scale(.46) translateX(12px);
+  }
+}

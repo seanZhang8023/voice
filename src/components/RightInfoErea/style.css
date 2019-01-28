@@ -1,0 +1,19 @@
+.rightInfoErea {
+  width: 375px;
+  height: 100%;
+
+}
+
+.rightInfoErea-img {
+  max-width: 360px;
+  margin-top: 30px;
+  margin-left: 10px;
+  box-shadow: -6px 0px 20px 4px #d2cfcf;
+}
+
+.rightInfoErea-banner {
+  max-width: 375px;
+  margin-top: 80px;
+  border-style: dashed;
+}
+

@@ -1,0 +1,33 @@
+.newCar-container {
+  height: 100%;
+  width: 100%;
+  font-family: Microsoft YaHei, "微软雅黑", STXihei, "华文细黑", Arial, sans-serif;
+  background-repeat: round;
+  border-radius: 40px;
+}
+
+.newCar-container-body {
+  height: 686px;
+  width: 100%;
+
+}
+
+.newCar-container-vr {
+  height: 686px;
+  width: 75%;
+  float: left;
+}
+
+.newCar-container-info {
+  margin-top: 80px;
+  height: 606px;
+  width: 25%;
+  float: left;
+}
+
+.newCar-container-foot {
+  height: 214px;
+  width: 70%;
+  margin-left: 30px;
+  margin-top: 20px;
+}

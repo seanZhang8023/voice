@@ -1,0 +1,75 @@
+.plicy-info {
+  height: 100%;
+  width: 50%;
+}
+
+.plicy-info-heder {
+  margin-top: 98px;
+  margin-left: 78px;
+  width: 800px;
+  height: 35px;
+
+}
+
+.plicy-info-title {
+  font-size: 36px;
+  font-family: SimHei;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+
+}
+
+.plicy-info-span {
+  margin-left: 280px;
+  font-size: 20px;
+  font-family: SimHei;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+
+}
+
+.plicy-info-btn {
+  width: 48px;
+  height: 24px;
+  font-size: 24px;
+  font-family: SimHei;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 40%;
+}
+
+.plicy-info-span .plicy-info-span-small {
+  margin-left: 20px;
+}
+
+.plicy-info-heder-pic {
+  margin-top: 27px;
+  margin-left: 78px;
+  height: 6px;
+
+}
+
+.plicy-info-heder-pic-img {
+  height: 6px;
+  width: 144px;
+}
+
+.plicy-info-company {
+  height: 730px;
+  width: 820px;
+  padding-left: 35px;
+  padding-top: 60px;
+
+}
+
+.plicy-info-company-span {
+  margin-left: 35px;
+  float: left;
+}
+
+.plicy-info-company-name {
+  font-size: 24px;
+  font-family: SimHei;
+  font-weight: 400;
+  color: #797474;
+}

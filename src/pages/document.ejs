@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <script src="/js/jquery-1.8.3.min.js">
+  </script><title>Voice</title><script>window.routerBase = "/";</script>
+</head>
+<body>
+<div id="root"></div>
+<script>
+  $(function () {
+    $("body").dblclick(function () {
+      console.log('1212213123dblclick');
+      requestFullScreen();
+    });
+    $("body").dblclick(function () {
+      exitFullscreen();
+    });
+    //进入全屏
+    function requestFullScreen() {
+      var de = document.documentElement;
+      if (de.requestFullscreen) {
+        de.requestFullscreen();
+      } else if (de.mozRequestFullScreen) {
+        de.mozRequestFullScreen();
+      } else if (de.webkitRequestFullScreen) {
+        de.webkitRequestFullScreen();
+      }
+    }
+
+    //退出全屏
+    function exitFullscreen() {
+      var de = document;
+      if (de.exitFullscreen) {
+        de.exitFullscreen();
+      } else if (de.mozCancelFullScreen) {
+        de.mozCancelFullScreen();
+      } else if (de.webkitCancelFullScreen) {
+        de.webkitCancelFullScreen();
+      }
+    }
+  });
+</script>
+</body>
+</html>
+

@@ -1,0 +1,85 @@
+.car-footer {
+  margin-left: 60px;
+  height: 240px;
+}
+
+.car-footer-carBrand {
+  height: 44px;
+
+}
+
+.car-footer-carType {
+  margin-top: 30px;
+  height: 170px;
+  margin-left: 50px;
+}
+
+.carBrand-span {
+  margin-top: 25px;
+  margin-left: 3px;
+  height: 58px;
+}
+
+.car-type-log0 {
+  margin-left: 30px;
+  max-width: 140px;
+  max-height: 63px
+}
+.car-type-log1 {
+  margin-left: 30px;
+  width: 110px;
+  height: 64px;
+  background: url(/carType/Oddey/Oddey.png) no-repeat;
+  background-size: 2310px 64px;
+}
+.car-footer .tab-panel {
+  flex-shrink: 0;
+  width: 100%;
+  transition: opacity .45s;
+  opacity: 1;
+  background-color: #dad6d6;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 15px;
+  overflow-x: scroll;
+  display: inherit;
+}
+.car-footer .tab-panel::-webkit-scrollbar {
+      width: 10px;
+}
+
+
+.ant-tabs-ink-bar {
+  background-color: #2f3238;
+}
+
+.ant-tabs {
+  font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.65);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  zoom: 1;
+  height: 280px;
+}
+
+.car-type-span .ant-badge-count {
+  background: rgb(152, 154, 151);
+  margin-left: -20px;
+  top: -4px
+
+}
+
+.car_checked {
+  border: solid 3px #b7b6ac;
+}
+
+.tab-panel-div{
+  display: inherit;
+}

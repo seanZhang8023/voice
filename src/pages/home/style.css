@@ -1,0 +1,30 @@
+.mainWeb-Container {
+  width: 100%;
+  border-radius: 40px;
+}
+
+.mainWeb-content {
+  margin-top: 140px;
+
+}
+
+.mainWeb-Container .ant-card {
+  background: transparent;
+  width: 430px;
+  height: 620px;
+  box-shadow: #021525 0px 0px 70px 4px;
+  border-radius: 42px;
+}
+
+.mainWeb-Container .ant-modal-content {
+
+}
+
+.mainWeb-Container .ant-modal-body {
+  padding: 24px;
+  word-wrap: break-word;
+  height: 900px;
+  width: 1660px;
+  margin-left: 130px;
+}
+

@@ -1,0 +1,42 @@
+.VR-content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.VR-content img {
+  max-height: 550px;
+  margin-left: 70px;
+}
+
+.in-out-btn {
+  height: 80px;
+  width: 100%;
+  margin-bottom: -80px;
+}
+
+.VR-content-container {
+  height: 580px;
+  width: 100%;
+}
+
+.VR-content-iframe {
+  height: 580px;
+  width: 1160px;
+  margin-left: 30px;
+  border: 0;
+}
+
+.color-changer-div {
+  position: fixed;
+  top: 700px;
+  left: 652px;
+  z-index: 9;
+
+}
+
+.car-color {
+  height: 30px;
+  width: 30px;
+}
+

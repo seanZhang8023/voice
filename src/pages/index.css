@@ -1,0 +1,16 @@
+
+.Poster-page {
+  height: 100%;
+  width: 100%;
+  font-family: Microsoft YaHei, "微软雅黑", STXihei, "华文细黑", Arial, sans-serif;
+  background-repeat: round;
+  border-radius: 40px;
+  position: relative;
+
+}
+
+.Poster-content {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}

@@ -1,0 +1,54 @@
+.in-out-side-btn {
+  margin: 20px;
+  text-align: center;
+}
+
+.side-btn-left {
+  width: 132px;
+  height: 42px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 13px 62px 0px rgba(90, 60, 173, 0.18);
+  border: 0;
+  font-size: 20px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: rgba(77, 77, 77, 1);
+}
+
+.side-btn-right {
+  width: 132px;
+  height: 42px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 21px 49px 0px rgba(0, 0, 0, 0.09);
+  border: 0;
+  font-size: 24px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: rgba(77, 77, 77, 1);
+}
+
+.btn-checked-left {
+  width: 132px;
+  height: 42px;
+  background: #2856B9;
+  box-shadow: 0px 13px 62px 0px rgba(90, 60, 173, 0.18);
+  border-radius: 27px 0px 0px 27px;
+  border: 0;
+  font-size: 20px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: rgb(249, 243, 243);
+}
+
+.btn-checked-right {
+  width: 132px;
+  height: 42px;
+  background: #2856B9;
+  box-shadow: 0px 13px 62px 0px rgba(90, 60, 173, 0.18);
+  border: 0;
+  font-size: 20px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: rgb(249, 243, 243);
+  border-radius: 0px 27px 27px 0px;
+}
